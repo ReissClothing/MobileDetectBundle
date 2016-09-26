@@ -76,7 +76,7 @@ class RequestResponseListener
      * @param bool            $fullPath
      */
     public function __construct(
-        MobileDetector $mobileDetector,
+        $mobileDetector,
         DeviceView $deviceView,
         RouterInterface $router,
         array $redirectConf,
